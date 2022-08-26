@@ -625,19 +625,129 @@
     <!-- よくある質問END -->
 
     <!-- 売却価格をチェックSTART -->
-    <div class="mt-5 w-100 mx-auto text-center" style="background-color: #D8F5D1;">
-      <img src="image/baikyakukakak.png" class="w-50 mx-auto">
-      <p>あなたが査定・調査を希望する物件はどれですか？</p>
-      <p>建物の構造はどれですか？</p>
-      <p>物件の現在の状況は、どれか当てはまりますか？</p>
-      <p>物件の築年数はどのくらいかご入力ください</p>
-      <p>ご希望の売却価格をご入力ください</p>
-      <p>火災保険加入の有無</p>
-      <p>地震保険加入の有無</p>
-      <p>お名前をご入力ください</p>
-      <p>物件の住所をご入力ください</p>
-      <p>電話番号をご入力ください</p>
-      <p class="mb-5">メールアドレスをご入力ください</p>
+    <div class="mb-5 mt-5 w-100 mx-auto text-center" style="background-color: #D8F5D1;">
+      <img src="image/baikyakukakak.png" class="w-50 mx-auto mb-5">
+      <div class="form-group">
+        <p class="control-label"><b>あなたが査定・調査を希望する物件はどれですか？</b></p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">一戸建て</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          <label class="form-check-label" for="inlineRadio4">土地</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">アパート</label>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>建物の構造はどれですか？</b></p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          <label class="form-check-label" for="inlineRadio4">木造</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">鉄骨</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">コンクリート造</label>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>物件の現在の状況は、どれか当てはまりますか？</b></p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          <label class="form-check-label" for="inlineRadio4">居住中</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">賃貸中</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">空室</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">その他</label>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>物件の築年数はどのくらいかご入力ください</b></p>
+        <div class=" d-flex justify-content-center">
+          <div class="input-group mb-3" style="width: 30rem;">
+            <input type="text" class="form-control" placeholder="築年数" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">年</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>ご希望の売却価格をご入力ください</b></p>
+        <div class=" d-flex justify-content-center">
+          <div class="input-group mb-3" style="width: 30rem;">
+            <input type="text" class="form-control" placeholder="希望売却価格" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">万</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>火災保険加入の有無</b></p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">あり</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">なし</label>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>地震保険加入の有無</b></p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+          <label class="form-check-label" for="inlineRadio3">あり</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+          <label class="form-check-label" for="inlineRadio4">なし</label>
+        </div>
+      </div>
+      <div class="form-group mt-3 align-items-center">
+        <p class="control-label"><b>お名前をご入力ください</b></p>
+        <div class=" d-flex justify-content-center">
+          <div class="input-group mb-3" style="width: 30rem;">
+            <input type="text" class="form-control" placeholder="名前" aria-label="名前" aria-describedby="basic-addon2">
+          </div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>物件の住所をご入力ください</b></p>
+        <div class=" d-flex justify-content-center">
+          <div class="input-group mb-3" style="width: 30rem;">
+            <input type="text" class="form-control" placeholder="住所" aria-label="住所" aria-describedby="basic-addon2">
+          </div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <p class="control-label"><b>電話番号をご入力ください</b></p>
+        <div class=" d-flex justify-content-center">
+          <div class="input-group mb-3" style="width: 30rem;">
+            <input type="text" class="form-control" placeholder="電話番号" aria-label="電話番号" aria-describedby="basic-addon2">
+          </div>
+        </div>
+      </div>
+      <div class="form-group mt-3 pb-3">
+        <p class="control-label"><b>メールアドレスをご入力ください</b></p>
+        <div class=" d-flex justify-content-center">
+          <div class="input-group mb-3" style="width: 30rem;">
+            <input type="text" class="form-control" placeholder="メールアドレス" aria-label="メールアドレス" aria-describedby="basic-addon2">
+          </div>
+        </div>
+      </div>
     </div> 
     <!-- 売却価格をチェックEND -->
 
