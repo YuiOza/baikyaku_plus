@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Top CSS -->
+  <link href="css/index.css" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <title>株式会社ECODA</title>
@@ -12,12 +14,15 @@
 <body>
   <!-- header -->
   <header>
-    <nav class="navbar navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand w-75" href="#"><img src="/image/header_logo.png" alt="" class="w-50"></a>
+
+    <nav class="navbar navbar-light py-0">
+      <div class="container-fluid pe-0">
+        <a class="navbar-brand w-75 py-0" href="#"><img src="image/header_logo.png" alt="" class="w-50"></a>
+        <!-- sp -->
         <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+          style="padding: 2.5% 2.5%; color:rgba(240, 136, 51, .3); border-color: #EF8933;background-color: #EF8933; border-radius: 0rem;">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -36,29 +41,52 @@
   <main>
     <!-- TOP Image -->
     <div class="card border-0">
-      <img src="image/header_main.png" class="w-100" style="margin-bottom: 7%;">
+      <!-- pc -->
+      <img src="image/header_main.png" class="w-100 d-none d-md-block" style="margin-bottom: 7%;">
       <div class="card-img-overlay">
         <div class="row">
           <div class="col">
-            <img src="image/link_consulting.png" class="d-block mx-auto w-50" style="margin-top: 30%;">
+            <img src="image/link_consulting.png" class="d-block mx-auto w-50 d-none d-md-block" style="margin-top: 30%;">
+          </div>
+        </div>
+        <div class="row">
+          <img src="image/point1.png" style="width:30%; margin:7% 5% 0px 18%;" class="d-none d-md-block">
+          <img src="image/point2.png" style="width:30%; margin:7% 0px 0px 0px;" class="d-none d-md-block">
+        </div>
+      </div>
+      <!-- sp -->
+      <img src="image/header_main_sp.png" class="w-100 d-md-none" style="margin-bottom: 7%;">
+      <div class="card-img-overlay">
+        <div class="row">
+          <div class="col">
+            <img src="image/header_title.png" class="w-100 d-md-none" style="margin-bottom: 7%;">
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="image/point1.png" style="width:30%; margin:7% 5% 0px 18%;">
-            <img src="image/point2.png" style="width:30%; margin:7% 0px 0px 0px;">
+            <img src="image/link_consulting.png" class="mx-auto w-100 d-md-none">
           </div>
         </div>
+        <div class="row">
+          <img src="image/point1.png" class="mt-5 pt-4 mx-auto w-75 d-md-none">
+        </div>
+        <div class="row">
+          <img src="image/point2.png" class="mt-5 pt-4 mx-auto w-75 d-md-none">
+        </div>
+        </div>
       </div>
+
       <div class="mx-auto text-center" style="width: 80%;">
         <p style="font-size: 1vw; margin-bottom: 4%;">
-          ※日照条件・電気使用料・電気プラン・ガス使用度等によって変動します。あくまで一例です
+          ※文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります
+          <br>　文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります
+          <br>　文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります
         </p>
       </div>
     </div>
 
     <!-- Campaign -->
-    <!-- <div class="mx-auto text-center">
+    <div class="mx-auto text-center">
       <h1 style="color: #D55272; font-size: 2.5vw; text-shadow: 3px 3px 5px #c4c4c4">日頃のご愛好に感謝して特別キャンペーン中</h1>
       <img src="image/canpaign.png" class="w-50">
       <div class="text-center">
@@ -66,10 +94,10 @@
           ※太陽光パネル以外のパワーコンディショナー、架台、ケーブル、蓄電池などは別途ご負担いただきます。
         </p>
       </div>
-    </div> -->
+    </div>
 
     <!-- Achievement-->
-    <!-- <div class="text-center" style="background-color:#D8F5D1;">
+    <div class="text-center" style="background-color:#D8F5D1;">
       <img src="image/ribbon.png" class="w-50 mx-auto" style="margin-top: 6%;">
       <div class="card border-0" style="background-color: #D8F5D1; padding-bottom: 3%; margin-bottom: 5%;">
         <div class="row mx-auto w-50">
@@ -99,10 +127,10 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- Solar 4 reasons -->
-    <!-- <div class="mx-auto text-center">
+    <div class="mx-auto text-center">
       <h1 style="color:white; font-size: 4vw; text-shadow: 2px 2px 4px #EF8933; -webkit-text-stroke: 1.0px #EF8933;">
         マイホームに太陽光発電を導入する<br>4つの理由
       </h1>
@@ -122,7 +150,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- Real cost zero -->
     <div class="mx-auto">
@@ -147,7 +175,7 @@
           </div>
         </div>
         <p class="w-75 mx-auto" style="color:#EF8933; font-size: 2.4vw; -webkit-text-stroke: 2px #EF8933;">
-          全国対応による大量仕入れによるコスト削減!
+          仕入価格を下げることで、低価格を実現！
         </p>
         <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
           文章が入ります文章が入ります文章が入ります文章が入ります。
@@ -180,7 +208,7 @@
           </div>
         </div>
         <p class="w-75 mx-auto" style="color:#EF8933; font-size: 2.4vw; -webkit-text-stroke: 2px #EF8933;">
-          営業～施工管理までワンストップのため少数精鋭
+          まとめて買って徹底的にコストダウン
         </p>
         <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
           文章が入ります文章が入ります文章が入ります文章が入ります。
@@ -210,7 +238,7 @@
           </div>
         </div>
         <p class="w-75 mx-auto" style="color:#EF8933; font-size: 2.4vw; -webkit-text-stroke: 2px #EF8933;">
-          WEB集客のみに集中→店舗型を極力少なくしてコストカット
+          100%自社施工によりコスト削減
         </p>
         <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
           文章が入ります文章が入ります文章が入ります文章が入ります。
@@ -227,10 +255,72 @@
           文章が入ります文章が入ります文章が入ります文章が入ります。
         </p>
 
+        <!-- Reason 4 -->
+        <div class="row">
+          <div class="col px-0">
+            <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
+          </div>
+          <div class="col-1 px-0"><img src="image/cost_down_reason4.png" class="w-50 mb-3"></div>
+          <div class="col px-0">
+            <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
+          </div>
+        </div>
+        <p class="w-75 mx-auto" style="color:#EF8933; font-size: 2.4vw; -webkit-text-stroke: 2px #EF8933;">
+          集客力で1件あたりの単価を抑える
+        </p>
+        <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
+          文章が入ります文章が入ります文章が入ります文章が入ります。
+          <br>文章が入ります文章が入ります文章が入ります文章が入ります。
+        </p>
+        <div class="card border-0">
+          <div class="row mx-auto w-25 mb-4">
+            <div class="col">
+              <img src="image/reason4_fact.png" class="w-100">
+            </div>
+          </div>
+        </div>
+        <p class="w-50 mx-auto mb-5" style="font-size: 1.3vw;">
+          文章が入ります文章が入ります文章が入ります文章が入ります。
+        </p>
 
-    <!-- Nationwide support Card -->
-    <div class="mx-auto">
-      <img src="image/nationwide_support.png" class="w-50" style="margin-bottom: 5%;">
+        <!-- Reason 5 -->
+        <div class="row">
+          <div class="col px-0">
+            <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
+          </div>
+          <div class="col-1 px-0"><img src="image/cost_down_reason5.png" class="w-50 mb-3"></div>
+          <div class="col px-0">
+            <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
+          </div>
+        </div>
+        <p class="w-75 mx-auto" style="color:#EF8933; font-size: 2.4vw; -webkit-text-stroke: 2px #EF8933;">
+          独自のソーラーローンで低金利を実現
+        </p>
+        <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
+          文章が入ります文章が入ります文章が入ります文章が入ります。
+          <br>文章が入ります文章が入ります文章が入ります文章が入ります。
+        </p>
+        <p class="w-50 mx-auto mb-4 p-2"
+          style="border:2px solid #4FAD39; color:#4FAD39; font-size: 1.7vw; -webkit-text-stroke: 1px #4FAD39;">
+          太陽光発電、蓄電池導入に対して、200万円の弊社ソーラーローンを
+          <br>240回払いで申し込む場合
+        </p>
+        <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
+          文章が入ります文章が入ります文章が入ります文章が入ります。
+          <br>文章が入ります文章が入ります文章が入ります文章が入ります。
+        </p>
+        <div class="card border-0">
+          <div class="row mx-auto w-50 mb-5">
+            <div class="col">
+              <img src="image/reason5_fact.png" class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="image/cost_down_fact_bottom.png" class="w-50 mt-5">
+      <p class="w-75 mx-auto mt-3 mb-5" style="font-size: 3.0vw; color:#D55272; -webkit-text-stroke: 2px #D55272;">
+        あなたの<span style="font-size: 5.5vw;">お悩み</span>を<span style="font-size: 5.5vw;">解決</span>します
+      </p>
     </div>
 
     <!-- Elec. cost up -->
@@ -243,29 +333,175 @@
       <div class="container mw-100">
         <div class="row justify-content-md-center">
           <div class="col-2">
+
+          </div>
+          <div class="col">
+            <p style="border-bottom: 2px solid #4FAD39;"></p>
+            <p class="mx-auto mb-5" style="font-size: 1.5vw;">
+              文章が入ります文章が入ります文章が入ります文章が入ります。文章が入ります
+              <br>文章が入ります文章が入ります文章が入ります。文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります。
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="image/annoyed_man.png" class="w-75"
+              style="position: relative; top:-30%; margin-bottom: -30%; left: -30%;">
           </div>
         </div>
       </div>
-      <img src="image/elec_cost_up.png" class="w-50">
+      <img src="image/elec_cost_up.png" class="w-75">
       <div class="w-50 pb-4 mb-5">
         <p style="font-size: 1.3vw;">
-          
+          *東京電力HPより
         </p>
       </div>
     </div>
+
+    <!-- Cost merit / Contact -->
+    <div class="w-100 mx-auto text-center">
+      <img src="image/recommendation.png" class="w-50 mb-3">
+      <p class="my-0" style="font-size: 1.5vw;">
+        太陽光発電と蓄電池を導入されたご家庭で<br>
+        <span style="font-size: 3.0vw; color:#D55272; -webkit-text-stroke: 1.5px #D55272;">
+          月16,000円だった電気代が
+        </span>
+      </p>
+      <div class="container mb-3">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-2 my-auto" style="padding: 0px; margin-right: -3%;">
+            <img src="image/month_avg.png" class="w-50">
+          </div>
+          <div class="col-6" style="text-align:left; padding-bottom: 1%; padding-left: 0px; margin-left: 0px;">
+            <p class="my-0" style=" font-size: 5.0vw; color:#D55272; -webkit-text-stroke: 3px #D55272;">
+              <span style="font-size: 8.0vw;">297</span>円に <span style="font-size: 8.0vw;">!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img src="image/link_consulting2.png" class="w-50 mb-4">
+    </div>
+    <p class="mb-5 mx-auto text-center" style="font-size: 1.0vw;">
+      注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+      <br>注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+      <br>注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+      <br>注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+    </p>
+
+    <!-- Real cost zero pattern-2 -->
+    <div class="w-100 mx-auto">
+      <img src="image/real_cost_zero2.png" class="w-100" style="margin-bottom: 5%;">
+    </div>
+
+    <!-- Contact / Campaign -->
+    <div class="mx-auto text-center">
+      <img src="image/link_consulting2.png" class="w-50">
+    </div>
+    </div>
+    <p class="my-5 mx-auto text-center" style="font-size: 1.0vw;">
+      注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+      <br>注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+      <br>注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+      <br>注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります注意事項が入ります
+    </p>
+    <div class="w-50 mx-auto text-center mb-5">
+      <h1 style="color: #D55272; font-size: 2.8vw; text-shadow: 3px 3px 5px #c4c4c4">日頃のご愛好に感謝して特別キャンペーン中</h1>
+      <img src="image/canpaign.png" class="w-100 d-block">
+    </div>
+
 
     <!-- お客様の声 -->
     <div class="w-100 mx-auto text-center" style="background-color: #FFDFC4;">
       <img src="image/okyaku.png" class="w-50 mb-3">
       <img src="image/koe.png" class="w-50 mb-3">
-      <div class="w-50 pb-4 mb-5">
-        <p style="font-size: 1.3vw;">
-          
-        </p>
-      </div>
+      <!-- <table class="mb-5 table table-borderless mx-auto">
+        <thead>
+          <tr>
+            <td scope="col">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+            <td scope="col">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+            <td colspan="2">
+              <div class="card mx-auto" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table> -->
     </div>
-
-
     <!-- お客様の声 -->
 
 
@@ -281,45 +517,143 @@
 
     <!-- お客様に納得START -->
     <div class="mt-5 w-100 mx-auto text-center" style="background-color: #D8F5D1;">
-      <img src="image/nattoku.png" class="w-50 mb-3 mt-5">
-      <div class="left">
-        <br>当社はあくまでお客様に合ったプランを提供することを目的としております。
-        <br>必要のない方にはオススメは致しません。
-        <br>まずは相談という方も是非当社にご相談ください！
-      </div>
-      <img src="image/anshin_family.png" class="w-50 mb-3 mt-5">
-    </div>
+      <img src="image/nattoku.png" class="w-50 mb-3">
+      <p class="text-center">文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります</p>
+      <p class="text-center">文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります</p>
+      <p class="text-center">文章が入ります文章が入ります文章が入ります文章が入ります文章が入ります</p>
+      <img src="image/anshin_family.png" class="w-50 mb-3">
+    </div>>
     <!-- お客様に納得END -->
+
+    <!-- №1 START -->
+    <div class="mt-5 w-100 mx-auto text-center">
+      <img src="image/ribbon.png" class="w-50 mx-auto" style="margin-top: 6%;">
+      <div class="card border-0" style="padding-bottom: 3%; margin-bottom: 5%;">
+        <div class="row mx-auto w-50">
+          <div class="col">
+            <img src="image/no1_title.png" class="w-100">
+            <p style="font-size: 1vw; margin-top: 5%;">
+              文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります
+            </p>
+          </div>
+          <div class="col">
+            <img src="image/no1_title.png" class="w-100">
+            <p style="font-size: 1vw; margin-top: 5%;">
+              文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります
+            </p>
+          </div>
+          <div class="col">
+            <img src="image/no1_title.png" class="w-100">
+            <p style="font-size: 1vw; margin-top: 5%;">
+              文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります
+              <br>文章が入ります文章が入ります
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- №1 END -->
 
     <!-- 導入事例START -->
     <div class="w-100 mx-auto text-center">
       <img src="image/jirei_title.png" class="w-50 mx-auto" style="margin-top: 6%;">
-      <img src="image/zenkokutaiou.png" class="w-50 mx-auto" style="margin-top: 6%;">
-
+      <div class="mt-5 table table-borderless mx-auto">
+        <table>
+          <thead>
+            <tr>
+              <td scope="col">
+                <img src="image/jirei.png" class="mb-3 w-75 rounded mx-auto d-block" alt="...">
+              </td>
+              <td scope="col">
+                <img src="image/jirei.png" class="mb-3 w-75 rounded mx-auto d-block" alt="...">
+              </td>
+              <td scope="col">
+                <img src="image/jirei.png" class="mb-3 w-75 rounded mx-auto d-block" alt="...">
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">
+                <img src="image/jirei.png" class="mb-3 w-75 rounded mx-auto d-block" alt="...">
+              </td>
+              <td>
+                <img src="image/jirei.png" class="mb-3 w-75 rounded mx-auto d-block" alt="...">
+              </td>
+              <td>
+                <img src="image/jirei.png" class="mb-3 w-75 rounded mx-auto d-block" alt="...">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <a class="navbar-brand w-75" href="#"><img src="image/kuwashiku.png" class="w-50 mb-3"></a>
     </div>
     <!-- 導入事例END -->
 
     <!-- 施工の流れSTART -->
     <div class="mt-5 w-100 mx-auto text-center" style="background-color: #4FAD39;">
-      <img src="image/nagare_title.png" class="w-50 mx-auto mt-5">
-      <img src="image/nagare.png" class="w-50 mx-auto mb-5 mt-3">
+      <img src="image/nagare_title.png" class="w-50 mx-auto">
+      <img src="image/nagare.png" class="w-50 mx-auto mb-5">
     </div>
     <!-- 施工の流れEND -->
 
     <!-- よくある質問START -->
     <div class="mt-5 w-100 mx-auto text-center">
       <img src="image/yokuaru.png" class="w-50 mx-auto">
-      <img src="image/Q&A.png" class="w-50 mx-auto mb-5 mt-5">
+      <img src="image/Q&A.png" class="w-50 mx-auto mb-5">
       <a class="navbar-brand w-75" href="#"><img src="image/kuwashiku.png" class="w-50 mb-3"></a>
-
-  </div>
+      <!-- <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              吹雪などの強風やひょうなどにも耐えられますか？
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">太陽電池モジュールと架台の取り付け強度はJISC8955に基づき耐えうる設計となっております。</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              太陽電池の寿命はどれくらいですか？
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">太陽電池モジュールの寿命はメーカー毎に見解がありますが、一般的に平均して20年以上と言われています。</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              雲の日や雨の日、雪の日のも発電しますか？
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              晴れの日よりも少ないながらに発電します。曇りでは晴天の1/3~1/10、雨天では1/5~1/20と言われています。積雪の場合、雪が乗ってパネルを隠してしまうと発電しません。</div>
+          </div>
+        </div>
+      </div> -->
+    </div>
     <!-- よくある質問END -->
 
     <!-- 売却価格をチェックSTART -->
     <div class="mb-5 mt-5 w-100 mx-auto text-center" style="background-color: #D8F5D1;">
-      <img src="image/baikyakukakaku.png" class="w-50 mx-auto mb-5 mt-5">
+      <img src="image/baikyakukakak.png" class="w-50 mx-auto mb-5">
       <div class="form-group">
-        <img src="image/now_elec.png" class="w-50 mb-3">
         <p class="control-label"><b>あなたが査定・調査を希望する物件はどれですか？</b></p>
         <div class="btn" style="background-color: #EF8933;">
           <div class="form-check form-check-inline">
@@ -392,7 +726,8 @@
         <p class="control-label"><b>物件の築年数はどのくらいかご入力ください</b></p>
         <div class=" d-flex justify-content-center">
           <div class="input-group mb-3" style="width: 30rem;">
-            <input type="text" class="form-control" placeholder="築年数" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="築年数" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
             <span class="input-group-text" id="basic-addon2">年</span>
           </div>
         </div>
@@ -401,7 +736,8 @@
         <p class="control-label"><b>ご希望の売却価格をご入力ください</b></p>
         <div class=" d-flex justify-content-center">
           <div class="input-group mb-3" style="width: 30rem;">
-            <input type="text" class="form-control" placeholder="希望売却価格" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="希望売却価格" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
             <span class="input-group-text" id="basic-addon2">万</span>
           </div>
         </div>
@@ -448,7 +784,8 @@
         <p class="control-label"><b>電話番号をご入力ください</b></p>
         <div class=" d-flex justify-content-center">
           <div class="input-group mb-3" style="width: 30rem;">
-            <input type="text" class="form-control" placeholder="電話番号" aria-label="電話番号" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="電話番号" aria-label="電話番号"
+              aria-describedby="basic-addon2">
           </div>
         </div>
       </div>
@@ -456,18 +793,19 @@
         <p class="control-label"><b>メールアドレスをご入力ください</b></p>
         <div class=" d-flex justify-content-center">
           <div class="input-group mb-3" style="width: 30rem;">
-            <input type="text" class="form-control" placeholder="メールアドレス" aria-label="メールアドレス" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="メールアドレス" aria-label="メールアドレス"
+              aria-describedby="basic-addon2">
           </div>
         </div>
       </div>
-    </div> 
+    </div>
     <!-- 売却価格をチェックEND -->
 
     <!-- 安全対策START -->
     <div class="mt-5 w-100 mx-auto text-center">
       <img src="image/anzentaisaku.png" class="w-50 mx-auto">
       <img src="image/7anzentaisaku.png" class="w-50 mx-auto mt-5 mb-5">
-    </div> 
+    </div>
     <!-- 安全対策END -->
 
   </main>
