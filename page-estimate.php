@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('lp'); ?>
 
 <section class="form_wrap">
   <div class="container">
@@ -43,4 +43,4 @@
   </div>
 </section>
 
-<?php get_footer('lp'); ?>
+<?php get_footer(); ?>

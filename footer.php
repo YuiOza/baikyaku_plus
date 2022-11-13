@@ -1,4 +1,3 @@
-
     <!-- footer -->
     <footer>
         <div class="text-center" style="background-color:#FFDFC4;">
@@ -27,6 +26,45 @@
 
     <!-- BootStrapのJSの読み込み -->
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
+	<script>
+	  $(function() {
+		$("button.btn").on("click", function() {
+		  if ($("#step").hasClass("step1")) {
+			$("#step").removeClass("step1");
+			$("#step").addClass("step2");
+			$("#box").remove();
+		  } else if ($("#step").hasClass("step2")) {
+			$("#step").removeClass("step2");
+			$("#step").addClass("step3");
+		  } else if ($("#step").hasClass("step3")) {
+			var target3 = $('#q3 input[type="text"]').val();
+			if (!target3) {
+			  $("#step").addClass("error");
+			} else {
+			  $("#step").removeClass("error");
+			  $("#step").removeClass("step3");
+			  $("#step").addClass("step4");
+			}
+		  } else if ($("#step").hasClass("step4")) {
+			var target4 = $('#q4 input[type="text"]').val();
+			if (!target4) {
+			  $("#step").addClass("error");
+			} else {
+			  $("#step").removeClass("error");
+			  $("#step").removeClass("step4");
+			  $("#step").addClass("step5");
+			}
+		  }
+		});
+	  });
+
+	  if (window.performance) {
+		if (window.performance.navigation.type === 1) {
+		  window.location.replace('/estimate');
+		}
+	  }
+
+	</script>
     <?php wp_footer(); ?>
 </body>
 
