@@ -9,9 +9,9 @@
     <!-- Bootstrap CSS -->
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
     <!-- Baikyaku-plus CSS -->
-    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/common.scss" rel="stylesheet">
-    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/lp.scss" rel="stylesheet">
-    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/reset.scss" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/common.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/lp.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/reset.css" rel="stylesheet">
     <!-- jQuery -->
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.5.1.min.js"></script>
     <title>株式会社ECODA</title>
