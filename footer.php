@@ -1,9 +1,9 @@
 
-  <!-- footer -->
-  <footer>
-    <div class="text-center" style="background-color:#FFDFC4;">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/footer.png" class="my-3 w-50 mx-auto" alt="">
-      <!-- <div class="col-1 px-0"><img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_logo.png" class="w-50 mb-3"></div>
+    <!-- footer -->
+    <footer>
+        <div class="text-center" style="background-color:#FFDFC4;">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/footer.png" class="my-5 w-50 mx-auto" alt="">
+            <!-- <div class="col-1 px-0"><img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_logo.png" class="w-50 mb-3"></div>
       <div class="left">
         <br>運営会社
         <br>株式会社　ＭＡＹＡ
@@ -22,11 +22,12 @@
         <br>0120-684-474
         <br>年中無休 9:30 - 22:00
       </div> -->
-    </div>
-  </footer>
+        </div>
+    </footer>
 
-  <!-- BootStrapのJSの読み込み -->
-  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
-  <?php wp_footer(); ?>
+    <!-- BootStrapのJSの読み込み -->
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
+    <?php wp_footer(); ?>
 </body>
+
 </html>
