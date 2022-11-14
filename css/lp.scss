@@ -14,7 +14,7 @@ header {
 
 main {
   .form_wrap {
-    background-image: url(../img/lp/lp_bg.jpg);
+    background-image: url(../image/lp_bg.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ main {
         }
       }
 
-      .progress {
+      .progressbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -229,7 +229,7 @@ main {
           display: block;
           width: 50px;
           height: 50px;
-          background-image: url(../img/lp/next.png);
+          background-image: url(../image/next.png);
           background-position: center center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -253,7 +253,7 @@ main {
         top: 50%;
         right: 15px;
         transform: translate(0, -50%);
-        background-image: url(../img/lp/arrow.svg);
+        background-image: url(../image/arrow.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -278,7 +278,7 @@ main {
             top: calc(50% - 10px);
             left: calc(50% + 50px);
             transform: translate(-50%, -50%);
-            background-image: url(../img/lp/manpu.svg);
+            background-image: url(../image/manpu.svg);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -481,7 +481,7 @@ main {
             display: block;
             width: 50px;
             height: 50px;
-            background-image: url(../img/lp/next.png);
+            background-image: url(../image/next.png);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -502,7 +502,7 @@ main {
           top: 70%;
           right: 20px;
           transform: translate(0, -50%);
-          background-image: url(../img/lp/arrow.svg);
+          background-image: url(../image/arrow.svg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -518,7 +518,7 @@ main {
             top: calc(50% - 10px);
             left: calc(50% + 50px);
             transform: translate(-50%, -50%);
-            background-image: url(../img/lp/manpu.svg);
+            background-image: url(../image/manpu.svg);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
