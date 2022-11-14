@@ -139,7 +139,6 @@
                     全国対応による大量仕入れによるコスト削減!
                 </p>
                 <p class="w-50 mx-auto mb-4" style="font-size: 1.3vw;">
-                    文章が入ります文章が入ります文章が入ります文章が入ります。
                 </p>
                 <div class="card border-0">
                     <!-- PC -->
@@ -291,7 +290,7 @@
                 <!-- お客様に納得START -->
                 <div class="mt-5 w-100 mx-auto text-center" style="background-color: #D8F5D1;">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/nattoku.png" class="w-50 mb-3 mt-5" alt="">
-                    <div class="left">
+                    <div class="mx-auto mb-4" style="font-size: 1.3vw;">
                         <br>当社はあくまでお客様に合ったプランを提供することを目的としております。
                         <br>屋根の形・地域・電気使用量を総合的に判断して必要のない方にはオススメは致しません。
                         <br>他社に進められて悩んでる方・契約目前の方・ちょっとだけ太陽光・蓄電池に興味がある方・
