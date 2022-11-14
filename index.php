@@ -8,7 +8,9 @@
             <div class="card-img-overlay">
                 <div class="row">
                     <div class="col">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/link_consulting.png" class="d-block mx-auto w-50 d-none d-md-block" style="margin-top: 30%;" alt="">
+                        <a href="/estimate">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/image/link_consulting.png" class="d-block mx-auto w-50 d-none d-md-block" style="margin-top: 30%;" alt="">
+						</a>
                     </div>
                 </div>
                 <div class="row">
@@ -18,7 +20,7 @@
             </div>
             <!-- sp -->
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_main_sp.png" class="w-100 d-md-none" style="margin-bottom: 7%;" alt="">
-            <div class="card-img-overlay">
+            <div class="card-img-overlay" style="z-index:-1;">
                 <div class="row">
                     <div class="col">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_title.png" class="w-100 d-md-none" style="margin-bottom: 7%;" alt="">
@@ -26,7 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/link_consulting.png" class="mx-auto w-100 d-md-none" alt="">
+                        <a href="/estimate"><img src="<?php echo get_stylesheet_directory_uri(); ?>/image/link_consulting.png" class="mx-auto w-100 d-md-none" alt=""></a>
                     </div>
                 </div>
                 <div class="row">
@@ -124,7 +126,7 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/cost_down_reasons.png" class="w-50 mb-5" alt="">
             <div class="card border-0">
                 <!-- Reason 1 -->
-                <div class="row">
+                <div class="row mx-0">
                     <div class="col px-0">
                         <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
                     </div>
@@ -163,7 +165,7 @@
                 </div>
 
                 <!-- Reason 2 -->
-                <div class="row">
+                <div class="row mx-0">
                     <div class="col px-0">
                         <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
                     </div>
@@ -203,7 +205,7 @@
                 </div>
 
                 <!-- Reason 3 -->
-                <div class="row">
+                <div class="row mx-0">
                     <div class="col px-0">
                         <p style="border-bottom: 2px solid #EF8933; padding-top: 6%;"></p>
                     </div>

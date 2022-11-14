@@ -358,7 +358,7 @@ main {
         }
       }
       
-      .q3-1_wrap, .q4-1_wrap, .q4-2_wrap {
+      .q4-2_wrap {
         margin-bottom: 30px;
         padding-bottom: 10px;
         border-bottom: 1px solid #ccc;
@@ -379,11 +379,7 @@ main {
         }
       }
       
-      .q3-2_wrap {
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-        margin-bottom: 30px;
-        
+      .q1_wrap,.q2_wrap,.q3-2_wrap {        
         .mwform-radio-field {
           @media screen and (min-width: 768px) {
             width: 25%;
@@ -392,7 +388,6 @@ main {
       }
     }
 
-    #q3,
     #q4,
     #q5 {
       width: 100%;
@@ -486,7 +481,7 @@ main {
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
-            top: 70%;
+            top: 50%;
             left: 20px;
             transform: translate(0, -50%);
             z-index: 1;
@@ -499,7 +494,7 @@ main {
           width: 13px;
           height: 18px;
           position: absolute;
-          top: 70%;
+          top: 50%;
           right: 20px;
           transform: translate(0, -50%);
           background-image: url(../image/arrow.svg);

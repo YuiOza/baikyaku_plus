@@ -20,23 +20,13 @@
 
 <body>
     <!-- header -->
-    <header>
-        <nav class="navbar navbar-light py-0">
-            <div class="container-fluid pe-0">
-                <a class="navbar-brand w-75 py-0" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_logo.png" alt="" class="w-25"></a>
-                <!-- sp -->
-                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="padding: 2.5% 2.5%; color:rgba(240, 136, 51, .3); border-color: #EF8933;background-color: #EF8933; border-radius: 0rem;">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link" href="#">Disabled</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+	<header>
+		<div class="container">
+		  <div class="logo">
+			<a href="<?php echo home_url();?>">
+			  <img src="<?php echo get_template_directory_uri(); ?>/image/header_logo.png" alt="株式会社ECODA">
+			</a>
+		  </div>
+		</div>
     </header>
 	<main>

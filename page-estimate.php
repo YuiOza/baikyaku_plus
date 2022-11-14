@@ -7,7 +7,7 @@
 		</div>
 
 		<div class="box">
-			<p class="appeal">ただの戸建て売却比較サイトではありません。<br>売却後お金がもらえる可能性が…！</p>
+			<p class="appeal">もう太陽光発電と蓄電池は<br>高額なものではありません！</p>
 
 			<p class="check">
 				<img class="sp" src="<?php echo get_template_directory_uri(); ?>/image/check_sp.png" alt="300件見積比較＆保険申請で売却価格をチェック！">
