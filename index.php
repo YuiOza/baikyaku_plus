@@ -7,9 +7,9 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_main.png" class="w-100 d-none d-md-block" style="margin-bottom: 7%;" alt="">
             <div class="card-img-overlay">
                 <div class="row">
-                    <div class="col">
-                        <a href="/estimate">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/image/link_consulting.png" class="d-block mx-auto w-50 d-none d-md-block" style="margin-top: 30%;" alt="">
+                    <div class="col" style="text-align:center">
+                        <a href="/estimate" class="w-50" style="margin-top: 30%;">
+							<img src="https://baikyaku-plus.vicus.io/wp-content/themes/baikyaku-plus/image/link_consulting.png" class="mx-auto w-100 d-none d-md-inline" alt="">
 						</a>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
             </div>
             <!-- sp -->
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_main_sp.png" class="w-100 d-md-none" style="margin-bottom: 7%;" alt="">
-            <div class="card-img-overlay" style="z-index:-1;">
+            <div class="card-img-overlay d-md-none">
                 <div class="row">
                     <div class="col">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/header_title.png" class="w-100 d-md-none" style="margin-bottom: 7%;" alt="">
